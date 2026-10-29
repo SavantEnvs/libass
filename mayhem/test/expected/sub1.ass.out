@@ -1,0 +1,21 @@
+[Script Info]
+; Original Format: ASS
+ScriptType: v4.00+
+PlayResX: 320
+PlayResY: 240
+LayoutResX: 0
+LayoutResY: 0
+Timer: 0.000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Kerning: no
+
+; Potential embedded fonts are lost in write out
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Aileron,200.000,&HFF000000,&HFF000000,&H00000000,&H00000000,0,0,0,0,100.000,100.000,0.000,0.000,1,8.000,0.000,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,000,000,000,,{\t(\frz+180)}A

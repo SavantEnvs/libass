@@ -1,0 +1,23 @@
+[Script Info]
+; Original Format: ASS
+ScriptType: v4.00+
+PlayResX: 854
+PlayResY: 480
+LayoutResX: 0
+LayoutResY: 0
+Timer: 0.000
+WrapStyle: 0
+ScaledBorderAndShadow: no
+Kerning: no
+
+; Potential embedded fonts are lost in write out
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,sans-serif,40.000,&HFFFFFF00,&HFF000000,&H00000000,&H00000000,0,0,0,0,100.000,100.000,0.000,0.000,1,0.000,0.000,8,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,000,000,000,,{\an7\pos(100,100)\p1}m 0 0 l 200 0 200 100 0 100{\p0}
+Dialogue: 0,0:00:01.00,0:00:05.00,Default,,000,000,000,,{\an7\pos(400,200)\p2\1c&H0000FF&}m 0 0 b 50 -80 150 -80 200 0 l 100 100 c{\p0}
+Dialogue: 0,0:00:02.00,0:00:05.00,Default,,000,000,000,,{\pos(427,400)\bord3\blur1.5}vector + text

@@ -1,0 +1,23 @@
+[Script Info]
+; Original Format: SSA
+ScriptType: v4.00+
+PlayResX: 384
+PlayResY: 288
+LayoutResX: 0
+LayoutResY: 0
+Timer: 0.000
+WrapStyle: 0
+ScaledBorderAndShadow: no
+Kerning: no
+
+; Potential embedded fonts are lost in write out
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20.000,&HFFFFFF00,&HFFFF0000,&H00000000,&H00000080,0,0,0,0,100.000,100.000,0.000,0.000,1,2.000,1.000,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:03.00,Default,,000,000,000,,SSA legacy {\a6}alignment {\c&HFF&}red
+Dialogue: 0,0:00:01.00,0:00:04.00,Default,,000,000,000,Banner;20;0;80,Scrolling banner effect
+Dialogue: 0,0:00:01.00,0:00:04.00,Default,,000,000,000,Scroll up;80;200;40,Scroll up effect
