@@ -1,0 +1,10 @@
+project: savantenvs/libass
+target: libass_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/libass_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/libass_fuzzer
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/fuzz/ass.dict

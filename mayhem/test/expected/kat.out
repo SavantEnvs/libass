@@ -1,0 +1,13 @@
+n_styles=3 n_events=2 res=854x480
+style[0]=Default font=Arial size=18 primary=FFFFFF00 bold=200 align=2
+style[1]=Default font=sans-serif size=40 primary=FF000000 bold=0 align=10
+style[2]=Second font=DejaVu Sans size=24 primary=FFFFFF00 bold=1 align=2
+event[0] start=1000 dur=2500 layer=0 style=1 margins=0,0,0 name= text={\an7\pos(100,100)\p1}m 0 0 l 200 0 200 100 0 100{\p0}
+event[1] start=10000 dur=2000 layer=2 style=2 margins=5,6,7 name=actor text=Plain text, with comma
+t=500 change=0
+  images=0
+t=2000 change=2
+  image[0] type=0 pos=99,99 size=208x112 color=FF000000 mostly_covered=1 tight=1
+  images=1
+t=5000 change=2
+  images=0
