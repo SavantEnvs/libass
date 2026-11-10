@@ -1,0 +1,5 @@
+5,0,Default,,0,0,0,,first
+5,0,Default,,0,0,0,,duplicate ReadOrder
+6,1,Default,,10,10,10,,{\pos(100,100)\c&H0000FF&}red
+200,0,Default,,0,0,0,,sparse ReadOrder
+7,0,Default,,0,0,0,,after

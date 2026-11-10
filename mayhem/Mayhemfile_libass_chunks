@@ -1,0 +1,9 @@
+project: savantenvs/libass
+target: libass_chunks-mined-05f247b
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/libass_chunks-mined-05f247b/testsuite
+cmds:
+  - cmd: /mayhem/libass_chunks
+    libfuzzer: true
+    timeout: 10
